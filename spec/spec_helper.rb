@@ -1,2 +1,5 @@
-$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
-require 'gn_uuid'
+$LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
+require "coveralls"
+Coveralls.wear!
+
+require "gn_uuid"
