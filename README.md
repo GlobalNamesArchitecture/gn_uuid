@@ -7,8 +7,8 @@ Global Names UUID
 [![CodeClimate][code_badge]][code_link]
 [![Dependency Status][dep_badge]][dep_link]
 
-Gem `gn_uuid` creates UUID version 5 from out of scientific name string. It
-uses DNS namespace with a domain `globalnames.org`. There is a 1:1 relationship
+Gem `gn_uuid` creates UUID version 5 out of scientific name string. It
+uses `globalnames.org` domain for DNS namespace. There is a 1:1 relationship
 between the string and the corresponding UUID, so it allows globally connect
 data about a name string originated from independent sources without a need
 to negotiate identifiers. You can find more information about UUID v5 from
@@ -138,13 +138,3 @@ Copyright (c) 2015 [Marine Biological Laboratory][mbl].
 [uuidgem]: https://github.com/shyouhei/ruby-uuid
 [dimus]: https://github.com/dimus
 
-[gem_badge]: https://badge.fury.io/rb/gn_crossmap.svg
-[gem_link]: http://badge.fury.io/rb/gn_crossmap
-[ci_badge]: https://secure.travis-ci.org/GlobalNamesArchitecture/gn_crossmap.svg
-[ci_link]: http://travis-ci.org/GlobalNamesArchitecture/gn_crossmap
-[cov_badge]: https://coveralls.io/repos/GlobalNamesArchitecture/gn_crossmap/badge.svg?branch=master
-[cov_link]: https://coveralls.io/r/GlobalNamesArchitecture/gn_crossmap?branch=master
-[code_badge]: https://codeclimate.com/github/GlobalNamesArchitecture/gn_crossmap/badges/gpa.svg
-[code_link]: https://codeclimate.com/github/GlobalNamesArchitecture/gn_crossmap
-[dep_badge]: https://gemnasium.com/GlobalNamesArchitecture/gn_crossmap.png
-[dep_link]: https://gemnasium.com/GlobalNamesArchitecture/gn_crossmap
