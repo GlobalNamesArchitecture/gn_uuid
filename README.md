@@ -12,7 +12,7 @@ uses `globalnames.org` domain for DNS namespace. There is a 1:1 relationship
 between the string and the corresponding UUID, so it allows globally connect
 data about a name string originated from independent sources without a need
 to negotiate identifiers. You can find more information about UUID v5 from
-the original [Request for Comment][rfc] document.
+the original [RFC4122][rfc] document.
 
 Installation
 ------------
