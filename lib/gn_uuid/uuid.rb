@@ -24,6 +24,8 @@ module GnUUID
       "urn:uuid:" + to_s
     end
 
+    alias_method :inspect, :to_uri
+
     def version
       @ary[6] >> 4
     end
