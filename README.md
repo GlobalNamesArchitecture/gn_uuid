@@ -137,4 +137,4 @@ Copyright (c) 2015 [Marine Biological Laboratory][mbl].
 [shyouhei]: https://github.com/shyouhei
 [uuidgem]: https://github.com/shyouhei/ruby-uuid
 [dimus]: https://github.com/dimus
-
+[mbl]: http://mbl.edu
