@@ -31,4 +31,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency "rake", "~> 10.4"
   gem.add_development_dependency "rspec", "~> 3.2"
   gem.add_development_dependency "rubocop", "~> 0.31"
+  gem.add_development_dependency "coveralls", "~> 0.8"
 end
