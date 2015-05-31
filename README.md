@@ -34,7 +34,7 @@ Or install it yourself as:
 Usage
 -----
 
-### GnUUID.uuid(string, guid = true)
+#### GnUUID.uuid(string, guid = true)
 
  Parameter | Type    | Description
 -----------|---------|----------------------------------------------------------
@@ -78,7 +78,7 @@ uuid.version
 Please note that the internal GnUUID::UUID does not have to be of the version
 5, but GnUUID.uuid generates only version 5 UUIDs
 
-### GnUUID.parse(uuid)
+#### GnUUID.parse(uuid)
 
 Takes a uuid string like "b33e4b19-2399-56c8-9dd3-eff79f221d2f" and returns an
 instance of GnUUID::UUID class. It can parse any UUID, not only version 5
