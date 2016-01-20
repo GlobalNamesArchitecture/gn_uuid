@@ -1,6 +1,7 @@
 Global Names UUID
 =================
 
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.45036.svg)](http://dx.doi.org/10.5281/zenodo.45036)
 [![Gem Version][gem_badge]][gem_link]
 [![Continuous Integration Status][ci_badge]][ci_link]
 [![Coverage Status][cov_badge]][cov_link]
