@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 describe GnUUID do
   describe ".version" do
     it "returns version" do

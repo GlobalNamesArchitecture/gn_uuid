@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "digest/sha1"
 require "gn_uuid/version"
 require "gn_uuid/uuid"

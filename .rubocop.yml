@@ -1,10 +1,26 @@
 AllCops:
+  TargetRubyVersion: 2.4
   Exclude:
+    - bin/**/*
     - db/**/*
     - bundle_bin/**/*
   Include:
     - gn_uuid.gemspec
+
 Style/StringLiterals:
   EnforcedStyle: double_quotes
-Style/DotPosition:
+
+Layout/DotPosition:
   EnforcedStyle: trailing
+
+Metrics/BlockLength:
+  Exclude:
+    - Rakefile
+    - "*.gemspec"
+    - "**/*.rake"
+    - "spec/**/*spec.rb"
+
+Naming/FileName:
+  Exclude:
+    - Gemfile
+    - Rakefile

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 describe GnUUID::UUID do
   let(:bytes) do
     "\x47\xd6\x1c\x81\x5a\x0f\x54\x48\x96\x4a\x34\xbb\xfb\x54\xce\x8b"

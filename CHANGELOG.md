@@ -1,6 +1,11 @@
 CHANGELOG for gn_uuid
 =====================
 
+v.0.5.1
+-------
+
+Ruby and gems update
+
 v0.5.0
 ------
 

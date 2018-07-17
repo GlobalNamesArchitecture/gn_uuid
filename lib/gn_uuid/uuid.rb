@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module GnUUID
   # handles UUID byte string and it's conversion  to different format
   # NOTE: this is a general UUID class which is not limited to only v5
@@ -17,14 +19,14 @@ module GnUUID
     end
 
     def to_i
-      @num ||= @ary.inject(0) { |a, e| a << 8 | e }
+      @to_i ||= @ary.inject(0) { |a, e| a << 8 | e }
     end
 
     def to_uri
       "urn:uuid:" + to_s
     end
 
-    alias_method :inspect, :to_uri
+    alias inspect to_uri
 
     def version
       @ary[6] >> 4
