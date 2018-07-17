@@ -121,7 +121,7 @@ The gem is available as open source under the terms of the [MIT License][mit].
 
 Author -- [Dmitry Mozzherin][dimus]
 
-Copyright (c) 2015 [Marine Biological Laboratory][mbl].
+Copyright (c) 2015-2018 [Dmitry Mozzherin][dimus].
 
 [gem_badge]: https://badge.fury.io/rb/gn_uuid.svg
 [gem_link]: http://badge.fury.io/rb/gn_uuid
@@ -138,4 +138,3 @@ Copyright (c) 2015 [Marine Biological Laboratory][mbl].
 [shyouhei]: https://github.com/shyouhei
 [uuidgem]: https://github.com/shyouhei/ruby-uuid
 [dimus]: https://github.com/dimus
-[mbl]: http://mbl.edu
